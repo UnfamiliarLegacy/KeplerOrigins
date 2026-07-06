@@ -6,6 +6,8 @@ The server is written in Java and using various libraries, such as Netty, an asy
 > This is a fork of the original Kepler project, which can be found here [https://github.com/Quackster/Kepler](https://github.com/Quackster/Kepler).  
 > Kepler is quite possibly the most complete v14 Habbo Hotel released to date, and has been in development since January 2018.
 
+#### This project is _discontinued_ and is no longer in active development. Pull requests are always welcome however.
+
 # Screenshots
 
 (Hotel view)
@@ -32,7 +34,7 @@ Download the latest development build from the [releases page](https://github.co
 
 To be honest, this server doesn't require much. I'd argue that the MariaDB server is more resource demanding than the emulator itself. 
 
-- JDK >= 17
+- JDK >= 25
 - MariaDB server
 
 # Installation
@@ -41,7 +43,7 @@ Install MariaDB server, connect to the database server and import Kepler.sql (lo
 
 Download the latest development build from the [releases page](https://github.com/UnfamiliarLegacy/KeplerOrigins/releases) and rename the files to remove the short build hash version, for convenience. 
 
-Install any JDK version that is equal or above >= 17 to run the jar files.
+Install any JDK version that is equal or above >= 25 to run the jar files.
 
 Open run.sh (Linux) or run.bat (Windows) to start Kepler.
 
